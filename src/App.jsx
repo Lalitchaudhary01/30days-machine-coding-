@@ -15,7 +15,7 @@ function App() {
       {/* <Todo/> */}
       {/* <ProductSearch /> */}
       {/* <ColorPicker /> */}
-      <Password/>
+      {/* <Password/> */}
     </>
   );
 }
