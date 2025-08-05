@@ -4,6 +4,7 @@ import "./App.css";
 // import Todo from "./components/Todo";
 // import ProductSearch from "./components/Search";
 import ColorPicker from "./components/ColorPicker";
+import Password from "./components/Password";
 
 function App() {
   // This is a simple counter app layout
@@ -13,7 +14,8 @@ function App() {
       {/* <Counter /> */}
       {/* <Todo/> */}
       {/* <ProductSearch /> */}
-      <ColorPicker />
+      {/* <ColorPicker /> */}
+      <Password/>
     </>
   );
 }
