@@ -9,6 +9,7 @@ import ToggleTheme from "./components/ToggleTheme";
 import CounterLetter from "./components/CounterLetter";
 import LiveClock from "./components/LiveClock";
 import Greeting from "./components/Greeting";
+import User from "./compo/User";
 
 function App() {
   // This is a simple counter app layout
@@ -27,7 +28,8 @@ function App() {
       {/* <ToggleTheme/> */}
       {/* <CounterLetter /> */}
       {/* <LiveClock /> */}
-      <Greeting />
+      {/* <Greeting /> */}
+      <User />
     </>
   );
 }
