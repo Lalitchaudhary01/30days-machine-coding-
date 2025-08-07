@@ -65,9 +65,7 @@ const CryptoApi = () => {
         ))}
       </div>
     </div>
-    
   );
-  return <div>hey</div>;
 };
 
 export default CryptoApi;

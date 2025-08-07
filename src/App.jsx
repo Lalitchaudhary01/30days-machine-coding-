@@ -14,6 +14,7 @@ import Formvalidation from "./form/Formvalidation";
 import ExapnadableFAQ from "./compo/ExapnadableFAQ";
 import FetchApiData from "./API/FetchApiData";
 import CryptoApi from "./API/CryptoApi";
+import ProductList from "./context/Product";
 
 function App() {
   // This is a simple counter app layout
@@ -37,7 +38,8 @@ function App() {
       {/* <Formvalidation /> */}
       {/* <ExapnadableFAQ /> */}
       {/* <FetchApiData/> */}
-      <CryptoApi />
+      {/* <CryptoApi /> */}
+      <ProductList />
     </>
   );
 }
