@@ -12,6 +12,7 @@ import Greeting from "./components/Greeting";
 import User from "./compo/User";
 import Formvalidation from "./form/Formvalidation";
 import ExapnadableFAQ from "./compo/ExapnadableFAQ";
+import FetchApiData from "./API/FetchApiData";
 
 function App() {
   // This is a simple counter app layout
@@ -33,7 +34,8 @@ function App() {
       {/* <Greeting /> */}
       {/* <User /> */}
       {/* <Formvalidation /> */}
-      <ExapnadableFAQ />
+      {/* <ExapnadableFAQ /> */}
+      <FetchApiData />
     </>
   );
 }
