@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-// import Counter from "./components/Counter";
+import Counter from "./components/Counter";
 // import Todo from "./components/Todo";
 // import ProductSearch from "./components/Search";
 import ColorPicker from "./components/ColorPicker";
@@ -10,6 +10,7 @@ import CounterLetter from "./components/CounterLetter";
 import LiveClock from "./components/LiveClock";
 import Greeting from "./components/Greeting";
 import User from "./compo/User";
+import Formvalidation from "./form/Formvalidation";
 
 function App() {
   // This is a simple counter app layout
@@ -29,7 +30,8 @@ function App() {
       {/* <CounterLetter /> */}
       {/* <LiveClock /> */}
       {/* <Greeting /> */}
-      <User />
+      {/* <User /> */}
+      <Formvalidation />
     </>
   );
 }
