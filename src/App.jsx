@@ -11,6 +11,7 @@ import LiveClock from "./components/LiveClock";
 import Greeting from "./components/Greeting";
 import User from "./compo/User";
 import Formvalidation from "./form/Formvalidation";
+import ExapnadableFAQ from "./compo/ExapnadableFAQ";
 
 function App() {
   // This is a simple counter app layout
@@ -31,7 +32,8 @@ function App() {
       {/* <LiveClock /> */}
       {/* <Greeting /> */}
       {/* <User /> */}
-      <Formvalidation />
+      {/* <Formvalidation /> */}
+      <ExapnadableFAQ />
     </>
   );
 }
