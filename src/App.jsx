@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 import "./App.css";
-import Counter from "./components/Counter";
+import Counter from "./assets/compo/Counter";
 // import Todo from "./components/Todo";
 // import ProductSearch from "./components/Search";
-import ColorPicker from "./components/ColorPicker";
-import Password from "./components/Password";
-import ToggleTheme from "./components/ToggleTheme";
-import CounterLetter from "./components/CounterLetter";
-import LiveClock from "./components/LiveClock";
-import Greeting from "./components/Greeting";
-import User from "./compo/User";
-import Formvalidation from "./form/Formvalidation";
-import ExapnadableFAQ from "./compo/ExapnadableFAQ";
-import FetchApiData from "./API/FetchApiData";
-import CryptoApi from "./API/CryptoApi";
+import ColorPicker from "./assets/compo/ColorPicker";
+import Password from "./assets/compo/Password";
+import ToggleTheme from "./assets/compo/ToggleTheme";
+import CounterLetter from "./assets/compo/CounterLetter";
+import LiveClock from "./assets/compo/LiveClock";
+import Greeting from "./assets/compo/Greeting";
+import User from "./assets/compo/User";
+import Formvalidation from "./assets/form/Formvalidation";
+import ExapnadableFAQ from "./assets/compo/ExapnadableFAQ";
+import FetchApiData from "./assets/API/FetchApiData";
+import CryptoApi from "./assets/API/CryptoApi";
 
-import Movies from "./API/Movies";
+import Movies from "./assets/API/Movies";
 
 function App() {
   // This is a simple counter app layout
