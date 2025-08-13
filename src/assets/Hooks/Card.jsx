@@ -1,0 +1,23 @@
+import React from "react";
+import useFetch from "./useFetch";
+
+const Posts = () => {
+  const {
+    data: posts,
+    loading,
+    error,
+  } = useFetch("https://jsonplaceholder.typicode.com/posts");
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error: {error}</p>;
+
+  return (
+    <ul>
+      {posts.slice(0, 10).map((post) => (
+        <li key={post.id}>{post.title}</li>
+      ))}
+    </ul>
+  );
+};
+
+export default Posts;
